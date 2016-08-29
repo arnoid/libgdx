@@ -229,7 +229,7 @@ project(":tests:gdx-tests-android") {
     dependencies {
         compile project(":tests:gdx-tests")
         compile project(":backends:gdx-backend-android")
-        compile "com.android.support:support-v4:+"
+        compile "com.android.support:support-v4:23.4.0"
     }
 }
 
